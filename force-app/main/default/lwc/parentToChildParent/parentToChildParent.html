@@ -1,0 +1,24 @@
+<template>
+    <lightning-card title="parent-to- child communication">
+        <lightning-input
+
+        class="slds-p-horizontal_small"
+        label="Set-Counter"
+        type="number"
+        min="0"
+        max="100000"
+        value={startCountstarter}
+        onchange={handleStartChange} >
+    
+    </lightning-input>
+
+    <lightning-button 
+    class="slds-p-horizontal_small"
+    label="Add 100 counter"
+    onclick={handlecounte}></lightning-button>
+<c-parent-child--child counter={startCountstarter}>
+
+</c-parent-child--child>
+
+</lightning-card>
+</template>
