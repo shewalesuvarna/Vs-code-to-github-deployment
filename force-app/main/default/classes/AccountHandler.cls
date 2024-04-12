@@ -11,6 +11,6 @@ public static void insertAccount (integer value)
         system.debug(addAccounts);
         N=N+1;
     }
-    insert addAccounts;
+    insert addAccount
 }
 }
