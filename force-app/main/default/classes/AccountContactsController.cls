@@ -1,4 +1,4 @@
-public class AccountContactsController {
+public class AccountContactsController 
     @AuraEnabled
     // get acc data uu
     public static List<Contact> getContactsByAccountId(String accountId) {
