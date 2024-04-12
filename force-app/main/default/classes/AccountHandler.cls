@@ -2,7 +2,7 @@ public class AccountHandler {
 public static void insertAccount (integer value)
 {
     list<Account> addAccounts = new list<Account>();
-    Integer N =1;
+    Integer N =
     While(N<=value){
         Account acc =new Account();
         acc.Name =' Acme Inc' + N;
